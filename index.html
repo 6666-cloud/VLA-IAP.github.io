@@ -349,7 +349,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="images/figure1.pdf" alt="Comparison of perception-first and interaction-first token pruning paradigms" style="width: 100%;" />
+      <img src="static/images/figure1.pdf" alt="Comparison of perception-first and interaction-first token pruning paradigms" style="width: 100%;" />
       <h2 class="subtitle has-text-centered">
         Comparison of Perception-First vs. Interaction-First token pruning paradigms. Perception-First baselines prematurely lose the manipulation target due to early semantic misalignment, while IAprune combines IoU-aware conservative-to-aggressive scheduling with budget-preserving structural reallocation to preserve the physical target and reduce redundant visual computation.
       </h2>
@@ -382,7 +382,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         
-        <img src="images/framework.pdf" alt="Overview of IAprune" loading="lazy" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 1.5rem;"/>
+        <img src="static/images/framework.pdf" alt="Overview of IAprune" loading="lazy" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 1.5rem;"/>
         
         <div class="content has-text-justified">
           <p>
@@ -403,7 +403,7 @@
     <div class="experiment-block" style="margin-bottom: 4rem;">
       <h3 class="title is-4">Overall Performance</h3>
       <div class="has-text-centered">
-        <img src="images/benchmarks.png" alt="Evaluation benchmarks and tasks" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <img src="static/images/Benchmark2_01.jpg" alt="Evaluation benchmarks and tasks" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       </div>
       <p class="content has-text-justified" style="margin-top: 1rem;">
         <strong>Evaluation benchmarks and tasks.</strong> The simulation evaluation includes LIBERO, VLABench, and CALVIN ABC-D. The real-world evaluation covers simple, long-horizon, and dual-arm manipulation.
@@ -415,7 +415,7 @@
     <div class="experiment-block" style="margin-bottom: 4rem;">
       <h3 class="title is-4">Comprehensive Performance Comparison</h3>
       <div class="has-text-centered">
-        <img src="images/table1.png" alt="Comprehensive performance comparison table" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <img src="static/images/table1.png" alt="Comprehensive performance comparison table" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       </div>
       <p class="content has-text-justified" style="margin-top: 1rem;">
         <strong>Comprehensive Performance Comparison.</strong> Success rates are reported on LIBERO and VLABench, and average sequence length is reported on CALVIN at nominal retention labels of 30%, 50%, and 70%. For IAprune, these labels denote target average retention ratios.
@@ -427,7 +427,7 @@
     <div class="experiment-block" style="margin-bottom: 4rem;">
       <h3 class="title is-4">OpenVLA-OFT Results on LIBERO Benchmark</h3>
       <div class="has-text-centered">
-        <img src="images/table2.png" alt="LIBERO results table" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <img src="static/images/table2.png" alt="LIBERO results table" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       </div>
       <p class="content has-text-justified" style="margin-top: 1rem;">
         <strong>LIBERO Results.</strong> Representative embodied manipulation policies are included for context. All pruning methods use the OFT 7B backbone, and speedup is reported relative to the unpruned OpenVLA-OFT policy.
@@ -439,7 +439,7 @@
     <div class="experiment-block" style="margin-bottom: 2rem;">
       <h3 class="title is-4">Memory and Runtime Analysis</h3>
       <div class="has-text-centered">
-        <img src="images/table3.png" alt="Memory and runtime analysis table" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <img src="static/images/table3.png" alt="Memory and runtime analysis table" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       </div>
       <p class="content has-text-justified" style="margin-top: 1rem;">
         <strong>Memory and Runtime on LIBERO.</strong> Peak GPU memory and per-step CUDA runtime are reported at nominal retention labels of 70%, 50%, and 30%. For IAprune, these labels denote the target average retention ratio; baseline labels follow their original budget definitions.
